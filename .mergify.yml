@@ -1,0 +1,10 @@
+pull_request_rules:
+  - name: New rule
+    conditions:
+      - base = main
+    actions:
+      label:
+        add:
+          - enhancement
+        remove: []
+        toggle: []
